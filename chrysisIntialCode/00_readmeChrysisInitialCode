@@ -1,17 +1,23 @@
-hi  i added some code to github that kind of works, 
-it extract the data from the links and you can ask questions, 
-of course is just an initial code, 
-i will iterate and improve it see my comments on github  on how to run it and my future plans. 
- 
-please check the code and give me some feedback 
- 
- 
-to run this code you need to 
-1) install the write libraries (see import statements) 
+This is an initial working code that extracts the first 10 links from the links.csv file 
+and allow the user to ask questions for those links. 
+
+To run this code you need to: 
+1) install the right libraries (see import statements) 
 2) add your hf token (give permissions for hf inference) 
-3) go to the gemma model and accept to use the gated model 
-4) run the code to ask questions to the 10 ten first links in the link.csv file, 
-a good question is what are the master requirements this code can easily scale to all the links, 
-and will add pdfs when i find time. this is just an initial working code, 
-there are some redundancies to be removed and some more functions to add, 
-like history more models, more agent logic better data representation etc
+3) go to the gemma model on hf and accept to use the gated model 
+4) run the code :
+    4.1 when running the code locally the links are extracted to markdown, but when running on colab i get blocked as robot. 
+       For this reason i provided you with the markdown and the extra files that when added to the same directory 
+       will prevent the code from re-extracting the markdown and go straight to quesiton-answering
+    4.2 (a good question is what are the master requirements)
+
+
+Improvements ideas : 
+1) the code can easily scale to all the links, 
+2) add pdfs
+3) remove redundancies 
+4) add functions like history more models, more agent logic better data representation etc
+5) try different models
+
+
+please check the code and give me some feedback
