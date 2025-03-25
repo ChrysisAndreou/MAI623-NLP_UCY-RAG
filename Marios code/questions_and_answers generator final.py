@@ -2,7 +2,7 @@
 and automatically generate questions and answers. Every time, you
 choose the PDF that it will read.
 It then generates two CSV files: the first contains the extracted
-data from the PDF using ReGex, and the second contains the generated
+data from the PDF , and the second contains the generated
 questions and answers.
 
 '''
