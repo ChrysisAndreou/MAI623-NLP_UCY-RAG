@@ -47,7 +47,7 @@ rag-agent-ucy
 1.  **Clone the repository:**
     ```bash
     git clone <your-repository-url> # Replace with your repo URL
-    cd rag-agent-ucy
+    cd constantinos_code
     ```
 
 2.  **Install Dependencies:**
