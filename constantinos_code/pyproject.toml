@@ -1,0 +1,18 @@
+[project]
+name = "rag-agent-ucy"
+version = "0.1.0"
+description = "Conversational RAG Agent for UCY Data."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.11.0",
+    "langchain-community>=0.3.23",
+    "langchain-core>=0.3.58",
+    "langchain-ollama>=0.3.2",
+    "openai-agents>=0.0.14",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
