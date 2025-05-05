@@ -9,4 +9,4 @@ If someone wants to compare our RAG, they just need to run their agent through t
 (the updated version see file generated_qa_dataset_ranked.xlsx) 
 and compute the Mean Semantic Similarity to the ground truth answers. See the file 4_evaluate_generation.py for details.
 
-For retrieval it may be harder to compare our agents but look at file 3_evaluate_retrieval.py you may be able to adjust it to your code. 
+For retrieval, it may be harder to compare our agents, but take a look at the file 3_evaluate_retrieval.py—you might be able to adapt it to your code.
