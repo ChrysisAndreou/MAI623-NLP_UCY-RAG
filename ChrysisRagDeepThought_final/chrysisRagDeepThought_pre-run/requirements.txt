@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+together
+tqdm
+openpyxl
+faiss-cpu
+scipy
+sentence-transformers
+llama-index-core
+matplotlib 
+seaborn  
